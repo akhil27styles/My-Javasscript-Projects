@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="kok.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+   
+    <title>Calorie Calculator!</title>
+  </head>
+  <body>
+    <div id="failure" class="alert alert-warning alert-dismissible fade show" role="alert">
+      <strong>Well!</strong> A child can't be that old select 2-3 Age for child input.Otherwise you will not get any output
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+    </div>
+
+    <div class="card" style="width: 25rem;">
+        <!-- <div class="card-header">
+            Calorie calculator
+        </div> -->
+    <h1>Calculate Your Calorie</h1>
+  <p>&nbspGender</p> <select id="gender" class="form-control form-control-lg" >
+        <option>Child</option>
+        <option>Female</option>
+        <option>Male</option>
+      </select>
+   <p>&nbspAge</p>   <select id="Age" class="form-control form-control-lg">
+        <option>2-3</option>
+        <option>4-8</option>
+        <option>9-13</option>
+        <option>14-18</option>
+        <option>19-30</option>
+        <option>31-50</option>
+        <option>51+</option>
+      </select>
+      <p>&nbspActive</p><select id="Active" class="form-control form-control-lg">
+        <option>Sedentaryb</option>
+        <option>Moderately Activec</option>
+        <option>Actived</option>
+      </select>
+
+        <!-- <label for="Weight"><p>&nbspWeight</p></label>
+        <input type="number" id="weight" class="form-control" id="exampleInputPassword1"  required  placeholder="Enter pounds...." required>   -->
+     
+        <button type="button" id="btn" class="btn btn-secondary btn-lg">Submit</button>
+       
+      </div>
+    
+      <div id ="result">
+         Your Calorie 
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="col.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
